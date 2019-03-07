@@ -9,7 +9,7 @@ This implementation uses Python and TensorFlow (a "library for numerical computa
 
 import SPATE
 
-model = SPATE.Model(embedding_size=50, learning_rate=0.5, batch_size=1024, scaling_factor= , cat_weight= )
+model = SPATE.Model(embedding_size=50, learning_rate=0.5, batch_size=1024, alpha= 0.04, beta= 0.45)
 
 model.fit(region_len,NF_len+cat_len+vocab_len)
 
