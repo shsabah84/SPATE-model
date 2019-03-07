@@ -49,12 +49,6 @@ class Model():
             beta = tf.constant([self.beta], dtype=tf.float32,
                                          name="beta")
             
-            #mnth_weight = tf.constant([self.mnth_weight], dtype=tf.float32,
-                                         #name="month_weight")
-            
-            #latlon_weight = tf.constant([self.latlon_weight], dtype=tf.float32,
-                                         #name="latlon_weight")
-            
             
             self.__focal_input = tf.placeholder(tf.int32, shape=[self.batch_size],
                                                 name="focal_words")#region id
